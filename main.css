@@ -1,0 +1,26 @@
+html{
+    /* background: radial-gradient(ellipse at bottom, #0d1e32, #111); */
+    background: radial-gradient(closest-side, #000, #000111 ,#000005);
+    height: 100%;
+}
+
+.star {
+    width: 1px;
+    height: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    /* animation: titileo 10s infinite; */
+}
+
+@keyframes titileo {
+    0%{
+        opacity: .1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .1;
+    }
+}
